@@ -11,3 +11,26 @@ Non sono sicuro del fatto che possiate caricare direttamente un Excel, chiedo co
 @Marius Minia
 
 Buon lavoro e a domani!
+
+
+
+Colonne|Tipo|Attributi
+---|---|---
+id|BigInt|PRIMARY_KEY AUTO_INCREMENT
+marca|VARCHAR|NOTNULL
+modello|VARCHAR|NOTNULL
+anno|DATE|NOTNULL
+chilometraggio|INT|NOTNULL
+tipo_cambio|VARCHAR|NOTNULL
+alimentazione|VARCHAR|NOTNULL
+potenza|INT|NOTNULL
+carozzeria|VARCHAR|NOTNULL
+potenza|SMALLINT|NOTNULL
+cilindrata|INT|NOTNULL
+peso|INT|NOTNULL
+consumo|VARCHAR|NOTNULL
+classe_emissioni|VARCHAR|NOTNULL
+equipoggiamento|TEXT|NOTNULL
+descrizione|TEXT|NOTNULL
+prezzo|INT|NOTNULL
+finanziamento| |NULL
