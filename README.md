@@ -20,17 +20,18 @@ id|BigInt|PRIMARY_KEY AUTO_INCREMENT
 marca|VARCHAR|NOTNULL
 modello|VARCHAR|NOTNULL
 anno|DATE|NOTNULL
-chilometraggio|INT|NOTNULL
+chilometraggio|MEDIUMINT|NOTNULL
 tipo_cambio|VARCHAR|NOTNULL
 alimentazione|VARCHAR|NOTNULL
 potenza|INT|NOTNULL
 carozzeria|VARCHAR|NOTNULL
 potenza|SMALLINT|NOTNULL
-cilindrata|INT|NOTNULL
+cilindrata|VARCHAR(4)|NOTNULL
 peso|INT|NOTNULL
 consumo|VARCHAR|NOTNULL
-classe_emissioni|VARCHAR|NOTNULL
+classe_emissioni|VARCHAR(4)|NOTNULL
 equipoggiamento|TEXT|NOTNULL
 descrizione|TEXT|NOTNULL
 prezzo|INT|NOTNULL
 finanziamento| |NULL
+telaio|CHAR(17)|UNIQUE,NOTNULL
